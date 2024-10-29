@@ -51,6 +51,7 @@ export const comics = [
   {
     id: 1,
     name: "Avengers: Disassembled",
+    description: "An event that sees the Avengers torn apart by betrayal and emotional turmoil, leading to the disbandment of the team.", 
     image: Avengers_Disassembled,
     characters_id: [1, 2, 3, 4, 5]
   },
@@ -58,24 +59,28 @@ export const comics = [
     id: 2,
     name: "The Amazing Spider-Man",
     image: Amazing_Spider_Man,
+    description: "A storyline where Doctor Octopus swaps bodies with Peter Parker, leading to Otto Octavius taking on the role of Spider-Man.",
     characters_id: [2]
   },
   {
     id: 3,
     name: "Infinity War",
     image: Avengers_Infinity_War,
+    description: "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
     characters_id: [1,2,3,4,5]
   },
   {
     id: 4,
     name: "Black Widow: The Things They Say About Her",
     image: Black_Widow_Things_They_Say,
+    description: "A miniseries that delves into Black Widow's past, exploring the rumors and truths of her life as a spy and Avenger.",
     characters_id: [3]
   },
   {
     id: 5,
     name: "Captain America: Civil War",
     image: Captain_America_Civil_War,
+    description: "Political pressure mounts to install a system of accountability when the actions of the Avengers lead to collateral damage. This creates a rift between the heroes, splitting them into opposing factions.",
     characters_id: [1,2,3,4,5]
   },
 ]

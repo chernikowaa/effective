@@ -20,6 +20,8 @@ const ComicDetail: React.FC = () => {
     <div>
       <h1>{comic.name}</h1>
       <img src={comic.image} alt={comic.name} className={styles.image} />
+      <div className={styles.textContainer}>
+      <p className={styles.description}>{comic.description}</p>
       <h2>Characters</h2>
       <ul className={styles.characterList}>
         {comicCharacters.map((character) =>
@@ -30,6 +32,7 @@ const ComicDetail: React.FC = () => {
           ) : null
         )}
       </ul>
+      </div>
     </div>
   );
 };
