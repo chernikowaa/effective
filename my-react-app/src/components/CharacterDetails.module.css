@@ -1,0 +1,60 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .details {
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .comicsSection {
+    margin-top: 20px;
+  }
+  
+  .comicsSection h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .comicsList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comicItem {
+    margin-bottom: 5px;
+  }
+  
+  .comicItem a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .comicItem a:hover {
+    color: #000000;
+    text-decoration: underline;
+  }

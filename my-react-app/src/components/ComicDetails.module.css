@@ -1,0 +1,14 @@
+.image {
+    width: 200px;
+    height: 300px;
+  }
+  
+  .characterList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .characterList li {
+    margin-bottom: 10px;
+  }
+  
